@@ -18,7 +18,7 @@
     line-height: 1.5;
 }
 #nav a {
-    display: block;
+    display: inline-block;
     width: 130px;
     text-decoration: none;
     color:white;
@@ -99,7 +99,7 @@ img{
 
 /* Profile */
 header {
-    background-color: #444642;
+    background-color:#0b0d0e;
     color: #fbfff2;
 }
 
@@ -110,7 +110,7 @@ header {
 }
 
 .projects .btn {
-    background-color:rgb(102, 145, 141);
+    background-color:white;
     color: #0f0909;
     font-family: 'Courgette', cursive;
     text-decoration: none;
@@ -120,7 +120,7 @@ header {
     box-shadow: 5px 5px 5px rgb(49, 28, 28);
 }
 .projects a:hover {
-    background: rgb(0,34,41, 50%);
+    background: rgba(157, 168, 170, 0.5);
 }
 .project-item {
     overflow: hidden;
@@ -153,12 +153,22 @@ footer h2 {
 }
 .contact-list {
     list-style-type: none;
-    padding: 0;
+    padding: 20px;
 }
 .contact-list a {
-    padding: 15px;
+    background-color:white;
+    color: #0f0909;
+    font-family: 'Courgette', cursive;
+    text-decoration: none;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 5px 5px 5px rgb(49, 28, 28);
 }
-
+.contact-list a:hover {
+    background: rgba(157, 168, 170, 0.5);
+}
 /* responsive _____________ */
 @media screen and (min-width:750px) {
     header, footer {
