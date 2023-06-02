@@ -18,12 +18,15 @@
     line-height: 1.5;
 }
 #nav a {
-    display: inline-block;
+    display: block;
     width: 130px;
     text-decoration: none;
     color:white;
-    font-size: smaller;
     font-weight: 100;
+    font-family: 'Courgette', cursive;
+}
+#nav a:hover {
+    color:rgb(34, 90, 41)
 }
 #nav li {
     float: left;
@@ -31,13 +34,14 @@
 }
 #nav li ul{
     position: absolute;
-    background:#0f0909;
+    background: rgba(11, 12, 11, 0.75);
     width: 130px;
     left: -999em;
+    
 }
 #nav li:hover ul {
     left: auto;
-    background-color:rgb(0,34,41, 50%);
+    background-color:rgba(7, 15, 14, 0.5);
     border-radius: 10px;
 }
 
@@ -87,19 +91,14 @@ h1, h2 {
     font-weight: 400;
     margin: 0;
 }
-a:focus { 
-    outline: 1px solid #f06916;
-}
-a:active {
-    color:#435812;
-}
+
 img{
     width: 200px;
 }
 
 /* Profile */
 header {
-    background-color:#0b0d0e;
+    background-color:#16360e;
     color: #fbfff2;
 }
 
